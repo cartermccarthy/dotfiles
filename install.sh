@@ -91,7 +91,7 @@ read -p "Enter your git username: " git_user
 read -p "Enter your git email: " git_email
 git config --global user.name "$git_user"
 git config --global user.email "$git_email"
-git config --global init.defaultBranch trunk
+git config --global init.defaultBranch main
 success "Git configured"
 
 # Setup Mise
